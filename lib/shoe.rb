@@ -6,11 +6,7 @@ BRANDS = []
   def initialize(brand)
     @brand = brand
     BRANDS.include?(brand) ? true : BRANDS << @brand
-    #BRANDS & BRANDS
   end
-
-
-
 
   def cobble
     self.condition = "new"
