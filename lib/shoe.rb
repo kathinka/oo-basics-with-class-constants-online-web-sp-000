@@ -5,14 +5,11 @@ BRAND = []
 
   def initialize(brand)
     @brand = brand
-    track_brands(brand)
+    BRANDS << brand
+    BRANDS.uniq
   end
 
-def track_brands(brand)
-  each.BRANDS do |brand|
-   BRANDS.include?(brand) ? true : BRANDS << brand
-end
-end
+
 
 
   def cobble
