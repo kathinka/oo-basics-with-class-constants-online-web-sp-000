@@ -7,6 +7,12 @@ BRAND = []
     @brand = brand
   end
 
+def track_brands(brand)
+  each.BRANDS do |brand|
+   BRANDS.include?(brand) ? true : BRANDS << @brand
+
+end
+
 
   def cobble
     self.condition = "new"
