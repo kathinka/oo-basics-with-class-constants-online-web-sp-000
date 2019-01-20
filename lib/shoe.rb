@@ -5,7 +5,7 @@ BRAND = []
 
   def initialize(brand)
     @brand = brand
-    track_brands
+    track_brands(brand)
   end
 
 def track_brands(brand)
