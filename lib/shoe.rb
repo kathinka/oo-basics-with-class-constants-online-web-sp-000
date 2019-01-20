@@ -8,7 +8,7 @@ class Shoe
      each.BRANDS do |brand|
       BRANDS.include?(brand) ? true : BRANDS << @brand
 
-  else
+end
 
   end
 
